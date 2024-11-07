@@ -23,6 +23,7 @@
             $padrão = numfmt_create("pt_BR", NumberFormatter::CURRENCY);
 
             echo "<p> Seus ". numfmt_format_currency($padrão, $real, "BRL") ." equilavem à <strong>". numfmt_format_currency($padrão, $dólar, "USD") ."</strong></p>";
+            echo "<p><strong><small><small>*Cotação fixa de R$5,69</strong> informada diretamente no código.</small></small></p>";
         ?>
         <button onclick="javascript:hitory.go(-1)">Voltar</button>
     </main>
