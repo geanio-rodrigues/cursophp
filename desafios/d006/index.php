@@ -26,14 +26,14 @@
     </main>
     <section>
         <h2>Estrutura da Divisão</h2>
-        <table>
+        <table class="divisao">
             <tr>
-                <td>Dividendo: <?=$dividendo?></td>
-                <td>Divisor: <?=$divisor?></td>
+                <td><?=$dividendo?></td>
+                <td><?=$divisor?></td>
             </tr>
             <tr>
-                <td>Resto: <?=$resto?></td>
-                <td>Quociente: <?=$quociente?></td>
+                <td><?=$resto?></td>
+                <td><?=$quociente?></td>
             </tr>
         </table>
     </section>
